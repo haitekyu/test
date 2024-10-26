@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8643/test/main/cdid"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/haitekyu/test/main/cdid"))()
