@@ -154,7 +154,7 @@ repeat task.wait()
         TweenValue.Changed:Connect(function()
         car:PivotTo(TweenValue.Value)
         end)
-        local OnTween = TweenService:Create(TweenValue, TweenInfoToUse, {Value=workspace.Etc.Waypoint.Waypoint.CFrame*CFrame.new(0,0,50)})
+        local OnTween = TweenService:Create(TweenValue, TweenInfoToUse, {Value=workspace.Etc.Waypoint.Waypoint.CFrame*CFrame.new(0,0,5)})
         OnTween:Play()
         OnTween.Completed:Wait()
         if workspace.Etc.Waypoint.Waypoint.Position == prepos then
